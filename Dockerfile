@@ -7,5 +7,5 @@ RUN pip install numpy
 #add main.py to image - destination is . because its in current directory
 COPY main.py .
 
-# command to start script
+#command to start script
 CMD ["python", "main.py"]
